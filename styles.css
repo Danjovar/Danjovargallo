@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Fondo con toque musical */
+#fondo {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    background-image: url('assets/diademas.jpg'); /* Fondo con imagen musical */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos del formulario */
+.formulario {
+    background-color: rgba(0, 0, 0, 0.822); /* Fondo semi-transparente */
+    color: #333; /* Texto oscuro */
+}
+
+.formulario h2 {
+    color: #049718; /* Color de título - naranja */
+}
+
+.formulario label {
+    color: #ffffff; /* Color de etiquetas - negro */
+}
+
+.formulario input[type="email"],
+.formulario input[type="password"] {
+    background-color: rgba(202, 24, 18, 0.5); /* Fondo de campos de entrada semi-transparente */
+    color: #000000; /* Texto oscuro */
+    border-color: #666; /* Borde gris */
+}
+
+.formulario button[type="submit"] {
+    background-color: #0b5f00; /* Fondo del botón - naranja */
+    border-color: #000000; /* Borde del botón - naranja */
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #003f05; /* Efecto hover del botón - naranja más claro */
+    border-color: #ffffff;
+    color: #000000; /* Texto blanco */
+}
+
+
+
